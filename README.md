@@ -15,4 +15,4 @@ _System Integration_
 >Improving lane detection and turning ability is the major contribution of this thesis. 
 
 
-![陳祐霖](https://drive.google.com/file/d/1Q01Wk3NbeajLmHk8YiabdgCTnhIkX2B2/view?usp=sharing)
+![image](https://github.com/Yo0GuitarIT/Raspberry_Car_AGV/blob/main/System%20control%20block.png)
