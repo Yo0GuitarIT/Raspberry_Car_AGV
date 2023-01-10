@@ -1,4 +1,5 @@
-from threading import Timer,Thread,Event
+#timer setting
+from threading import Timer,Thread,Event 
 
 
 class perpetualTimer():
