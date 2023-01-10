@@ -3,8 +3,8 @@ Recently, vehicles are gradually equipped with autonomous driving functions, lan
 
  Keywords—Differential speed steering, Four-wheel independent driving, Electric vehicle, Lane detection, Hough transform, Canny edge detection, HSV
  
- ##_Visual Recognizes_ 
+ _Visual Recognizes_ 
  
- ##_Electric Vehicle Dynamics_
+ _Electric Vehicle Dynamics_
 
- ##_System Integration_
+ _System Integration_
