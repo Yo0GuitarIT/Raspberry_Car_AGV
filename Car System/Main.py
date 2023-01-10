@@ -1,4 +1,4 @@
-#############################################導入函式庫與相關程式檔案
+#############################################Import Library & file
 import RPi.GPIO as GPIO
 import time
 import numpy as np
@@ -15,7 +15,7 @@ from Camera_CV import make_points,display_lines , display_heading_line , get_ste
 from Motor_Module import Motor
 from EncoderRead import Encoder
 from Timer import perpetualTimer
-##############################################腳位設定
+##############################################set GPIO
 
 GPIO.setmode(GPIO.BCM)
 
@@ -31,7 +31,7 @@ e3 = Encoder(11,10)   #C
 motor_RL = Motor(23, 24, 25)
 e4 = Encoder(14,15)   #D
 
-##############################################參數初始設定
+##############################################Initial parameter
 Astep_prev = 0
 Bstep_prev = 0
 Cstep_prev = 0
@@ -90,7 +90,7 @@ ki = 0.001
 kd = 0.0
 
 
-################################################################# 數據初始
+################################################################# Initail  record
 x_value = 0
 total_1 = 0
 total_2 = 0
@@ -133,7 +133,7 @@ def PID_system():
     ThetaD_change =round((ThetaD - ThetaD_prev),3)
 
     ######################################################
-    if TargetRPM_R > 0 :                   #處理重置步數問題
+    if TargetRPM_R > 0 :                   #Solve Step Problem
         if ThetaA_change < 0:
             ThetaA_change = ThetaA_change_prev
         #if ThetaB_change < 0 :
