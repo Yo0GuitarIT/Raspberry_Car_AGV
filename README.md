@@ -16,3 +16,5 @@ _System Integration_
 
 ## Control Flow
 ![image](https://github.com/Yo0GuitarIT/Raspberry_Car_AGV/blob/main/System%20controll%20Block.png)
+
+More detial in here: https://reurl.cc/ymqYWl
